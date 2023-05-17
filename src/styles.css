@@ -1,23 +1,57 @@
-body {
-  background-color: aliceblue;
+:root {
+  --branding-color: #6c63ff;
+  --secondary-color: #f9f7fe;
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", sans-serif;
 }
 
-h1 {
+body {
+  font-family: var(--default-font-family);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: black;
-  font-family: "Playfair Display", serif;
+  font-family: var(--heading-font-family);
   font-weight: bold;
 }
 
+h1 {
+  font-size: 96px;
+}
+
 p {
-  font-family: "Poppins", sans-serif;
   font-weight: normal;
 }
 
-footer {
+.hero {
+  background: var(-secondary-color);
   text-align: center;
+  padding: 160px 20px;
 }
 
-.fa-instagram,
-.fa-inbox {
-  margin-right: 20px;
+.hero p {
+  font-size: 36px;
+  font-weight: bold;
+  color: #272142;
+}
+
+.hero h2 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 2;
+  color: #272142;
+}
+
+.btn-branding {
+  background: var(--branding-color);
+  color: white;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 18px 30px;
 }
