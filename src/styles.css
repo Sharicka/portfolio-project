@@ -1,0 +1,23 @@
+body {
+  background-color: aliceblue;
+}
+
+h1 {
+  color: black;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+}
+
+footer {
+  text-align: center;
+}
+
+.fa-instagram,
+.fa-inbox {
+  margin-right: 20px;
+}
