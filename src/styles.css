@@ -102,28 +102,28 @@ footer a {
   font-size: 28px;
 }
 
-.about-section {
+.content-container {
   padding: 90px 20px;
 }
 
-.about-section h1 {
+.content-container h1 {
   font-size: 64px;
   line-height: 80px;
 }
 
-.about-section h2 {
+.content-container h2 {
   font-family: var(--default-font-family);
   font-size: 18px;
   line-height: 27px;
 }
 
-.about-section p {
+.content-container p {
   font-family: var(--default-font-family);
   font-size: 16px;
   line-height: 30px;
 }
 
-.about-section-content {
+.content {
   margin: 40px;
 }
 
@@ -154,7 +154,7 @@ footer a {
     padding: 0;
     text-align: center;
   }
-  .about-section {
+  .content-container {
     text-align: center;
     padding: 0;
   }
