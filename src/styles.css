@@ -29,6 +29,10 @@ h2 {
   font-size: 64px;
 }
 
+h4 {
+  font-size: 48px;
+}
+
 p {
   font-weight: normal;
   font-size: 16px;
@@ -37,9 +41,12 @@ p {
 
 footer a {
   color: var(--branding-color);
+  background: var(--secondary-color);
   text-align: center;
   text-decoration: none;
   margin: 0 30px;
+  padding: 10px 14px;
+  border-radius: 50%;
 }
 
 .hero {
@@ -86,8 +93,12 @@ footer a {
 
 .work-inquiry {
   background: var(--secondary-color);
-  text-align: center;
   border-radius: 20px;
+  padding: 30px 120px;
+}
+
+.work-inquiry p {
+  margin: 0;
 }
 
 .email-link {
@@ -98,8 +109,12 @@ footer a {
   text-decoration: none;
 }
 
+.email-link:hover {
+  color: var(--branding-color);
+}
+
 .social-icon {
-  font-size: 28px;
+  font-size: 18px;
   color: var(--branding-color);
 }
 
@@ -187,11 +202,6 @@ nav li.active a {
 
   h2 {
     font-size: 44px;
-  }
-
-  footer a {
-    font-size: 16px;
-    margin-left: 1px;
   }
 
   .hero {
