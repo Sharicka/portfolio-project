@@ -172,6 +172,15 @@ footer a {
   text-decoration: none;
 }
 
+.app-pics {
+  height: 360px;
+  width: 430px;
+}
+
+.home-photo {
+  width: 25%;
+}
+
 nav {
   padding: 20px 0;
 }
