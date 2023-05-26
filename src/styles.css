@@ -172,6 +172,10 @@ footer a {
   text-decoration: none;
 }
 
+.open-sourced:hover {
+  color: #ffe1e1;
+}
+
 .app-pics {
   height: 360px;
   width: 430px;
